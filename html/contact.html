@@ -9,8 +9,8 @@
     <h1>Контакты</h1>
     <nav>
         <ul>
-            <li><a href="./index.html" target="_blank">Главная</a></li>
-            <li><a href="./portfolio.html" target="_blank">Портфолио</a></li>
+            <li><a href="./index.html">Главная</a></li>
+            <li><a href="./portfolio.html">Портфолио</a></li>
             <li><a href="./contact.html">Контакты</a></li>
         </ul>
     </nav>
@@ -25,12 +25,23 @@
         <input type="number" name="phone" id="">
         <label for="user__email">Email</label>
 
-        
+        <legend>Тип сайта</legend>
+        <select name="site type" id="site_type">  
+            <option value="">-- Выберите тип сайта --</option>
+            <option value="site_vizitka">Сайт-визитка</option>
+            <option value="corporate_website">Корпоративный сайт</option>
+            <option value="online_store">Онлайн магазин</option>
+            <option value="catalog_site">Сайт каталог</option>
+            <option value="promo_website">Пром-сайт</option>
+            <option value="blog">Блог</option>
+            <option value="portal">Портал</option>
+            <option value="forum">Форумы</option>
+        </select>        
 
         <legend>Количество страниц</legend>
-        <input type="radio" name="lending pages" id="lending pages" />
+        <input type="radio" name="pages" id="lending_pages" />
         <label for="lending pages">Одностраничный</label>
-        <input type="radio" name="multi-page" id="multi-page" />
+        <input type="radio" name="pages" id="multi-page" />
         <label for="multi-page">Многостраничный</label>
     </form>
 </body>
