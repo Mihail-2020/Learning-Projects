@@ -6,43 +6,53 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Контакты</h1>
-    <nav>
-        <ul>
-            <li><a href="./index.html">Главная</a></li>
-            <li><a href="./portfolio.html">Портфолио</a></li>
-            <li><a href="./contact.html">Контакты</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Главная</a></li>
+                <li><a href="./portfolio.html">Портфолио</a></li>
+                <li><a href="./contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h2>
-        Приема заявок на разработку
-    </h2>
-    <form action="" method="post">
-        <label for="user__name">Ваше имя</label>
-        <input type="text" name="name" id="user__name">
-        <label for="user__phone">Номер телефона</label>
-        <input type="number" name="phone" id="">
-        <label for="user__email">Email</label>
+    <main>
+        
+        <h1>Контакты</h1>
 
-        <legend>Тип сайта</legend>
-        <select name="site type" id="site_type">  
-            <option value="">-- Выберите тип сайта --</option>
-            <option value="site_vizitka">Сайт-визитка</option>
-            <option value="corporate_website">Корпоративный сайт</option>
-            <option value="online_store">Онлайн магазин</option>
-            <option value="catalog_site">Сайт каталог</option>
-            <option value="promo_website">Пром-сайт</option>
-            <option value="blog">Блог</option>
-            <option value="portal">Портал</option>
-            <option value="forum">Форумы</option>
-        </select>        
 
-        <legend>Количество страниц</legend>
-        <input type="radio" name="pages" id="lending_pages" />
-        <label for="lending pages">Одностраничный</label>
-        <input type="radio" name="pages" id="multi-page" />
-        <label for="multi-page">Многостраничный</label>
-    </form>
+        <h2>
+            Приема заявок на разработку
+        </h2>
+        <form action="" method="post">
+            <label for="user__name">Ваше имя</label>
+            <input type="text" name="name" id="user__name">
+            <label for="user__phone">Номер телефона</label>
+            <input type="number" name="phone" id="">
+            <label for="user__email">Email</label>
+
+            <legend>Тип сайта</legend>
+            <select name="site type" id="site_type">  
+                <option value="">-- Выберите тип сайта --</option>
+                <option value="site_vizitka">Сайт-визитка</option>
+                <option value="corporate_website">Корпоративный сайт</option>
+                <option value="online_store">Онлайн магазин</option>
+                <option value="catalog_site">Сайт каталог</option>
+                <option value="promo_website">Пром-сайт</option>
+                <option value="blog">Блог</option>
+                <option value="portal">Портал</option>
+                <option value="forum">Форумы</option>
+                <option value="other">Другое</option>
+            </select>        
+
+            <legend>Количество страниц</legend>
+            <input type="radio" name="pages" id="lending_pages" />
+            <label for="lending pages">Одностраничный</label>
+            <input type="radio" name="pages" id="multi-page" />
+            <label for="multi-page">Многостраничный</label>
+        </form>
+
+    </main>
+
 </body>
 </html>
