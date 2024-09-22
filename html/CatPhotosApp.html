@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test prodject</title>
+    <title>CatPhotoApp</title>
 </head>
 <body>
 
@@ -45,12 +45,32 @@
         <section>
             <h2>Cat Form</h2>
             <form action="https://freecatphotoapp.com/submit-cat-photo">
-                <input type="radio" name="" id="">Indoor
+
+
+                <fieldset>
+                    <label for="">
+                        <input checked type="radio" name="indoor-outdoor" id="indoor" value="indoor"> Indoor
+                    </label>
+                    <label for="">
+                        <input type="radio" name="indoor-outdoor" id="outdoor" value="outdoor"> Indoor
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>What's your cat's personality?</legend>
+                    <input type="checkbox" name="personality" id="loving"> <label for="loving">Loving</label>
+                    <input type="checkbox" name="personality" id="lazy"> <label for="lazy">Lazy</label>
+                    <input type="checkbox" name="personality" id="enetgetic"> <label for="enetgetic">Enetgetic</label>
+                </fieldset>
+
+
                 <input type="text" name="catphotourl" id="" placeholder="cat photo URL" required>
                 <button type="submit">Submit</button>
             </form>
-        </section>
+        </section>  
     </main>
+    <footer>
+        <p>No Copyringht</p>
+    </footer>
 
 </body>
 </html> 
