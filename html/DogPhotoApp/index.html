@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Photo App</title>
+</head>
+<body>
+    <main>
+        <h1>
+            Приложение для фотограйий собак
+        </h1>
+        <section>
+            <h2>
+                Фотографии собак
+            </h2>
+            <p>
+                Смотрите больше фотографий собак в галерее.
+            </p>
+            <img src="img/dogs1.jpg" alt="Dog photo" style="height: 300px;">
+        </section>
+        <section>
+            <h2>
+                Список про собак
+            </h2>
+            <h3>
+                Что любят собаки.
+            </h3>
+            <ul>
+                <li>Прогулки и игры на свежем воздухе.</li>
+                <li>Копание и рытьё ям.</li>
+                <li>Возможность грызть игрушки или кости.</li>
+            </ul>
+            <figure>
+                <img src="img/i.webp" alt="">
+                <figcaption>Собака с полкой</figcaption>
+            </figure>
+            
+            <h3>
+                Что не любят собаки.
+            </h3>
+            <ol>
+                <li>Острый или кайенский перец.</li>
+                <li>Чёрный перец.</li>
+                <li>Алкоголь и запах перегара.</li>
+            </ol>
+            <figure>
+                <img src="img/4e688963503c688e45e0255caec0ee41.jpg" alt="">
+                <figcaption>Недовольный песик</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2>
+
+            </h2>
+            <form action="#">
+
+                <fieldset>
+                    <legend>
+                        Ваша собака живет в помещении или на улице?
+                    </legend>
+                    <label for="indoor">
+                        <input type="radio" name="indoor-outdoor" id="indoor" value="indoor">В помещение
+                    </label>
+                    <label for="outdoor">
+                        <input type="radio" name="indoor-outdoor" id="outdoor" value="outdoor">На улице
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Каков характер вашей собаки?
+                    </legend>
+                    <input type="checkbox" name="personality" id="sanguine">Сангвиник — спокойные, любопытные животные.
+                    <input type="checkbox" name="personality" id="choleric">Холерик — активные, нервные и «разговорчивые» собаки.
+                    <input type="checkbox" name="personality" id="phlegmatic">Флегматик — спокойные, уверенные в себе собаки.
+                </fieldset>
+
+                <input type="text" name="dogphotourl" placeholder="cat photo URL" required>
+                <button type="submit"></button>
+
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>No Copyright</p>
+    </footer>
+</body>
+</html>
